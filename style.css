@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  width: 50%;
+  height: 50%;
+  font-size: 2.6rem;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 35%;
+  top: 3%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  color: black;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.btn1 {
+  border-radius: 8px;
+  width:14rem;
+  
+}
+
+.btnreload {
+    border-radius: 8px;
+}
+
+
+.main2 {
+  color: black;
+  position: absolute;
+  left: 25rem;
+  top: 24.5%;
+}
+
+.btn2 {
+    border-radius: 8px;
+    width:14rem;
+ 
+}
+

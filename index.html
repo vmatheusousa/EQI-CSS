@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Calculadora de investimentos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,9 +23,16 @@
 
             <p class="textrend">Rendimentos</p>
 
-            <button class="btn1">
-                <p>Bruto | Liquido</p>
-            </button><br>
+            <div>
+                <div class="cont1">
+                    <fieldset>
+                        <button class="btn1">
+                        <input type="brut" value="Bruto">
+                        <input type="liq" value="Liquido">
+                    </button>
+                    </fieldset>
+                </div>
+            </div><br>
 
             <p class="text.aport">Aporte Inicial</p><br></hr>
 
@@ -38,35 +46,36 @@
                 <p>Limpar campos</p>
             </button>
 
+
         </div>
-    </div>
 
-    <div class="main2">
+        <div class="main2">
 
-        <p class="textypes">Tipos de indexação?</p>
+            <p class="textypes">Tipos de indexação?</p>
 
-        <fieldset>
-            <div class="toggle">
-                <input type="radio" name="sizeBy" value="weight" id="sizeWeight" checked="checked" />
-                <label for="sizeWeight">Pré</label>
-                <input type="radio" name="sizeBy" value="weight" id="sizeWeight" checked="checked" />
-                <label for="sizeWeight">Pós</label>
-                <input type="radio" name="sizeBy" value="dimensions" id="sizeDimensions" />
-                <label for="sizeDimensions">Fixado</label>
-            </div>
-        </fieldset>
+            <div>
+                <div class="cont2">
+                    <fieldset>
+                        <button class="btn-ppf">
+                            <input type="pre" value="Pré">
+                            <input type="pos" value="Pós">
+                            <input type="fixed" value="Fixado">
+                        </button>
+                    </fieldset>
+                </div>
+            </div><br>
 
-                <p class="text.aportm">Aporte Mensal</p><br></hr>
+            <p class="text.aportm">Aporte Mensal</p><br></hr>
 
-                <hr>
-                <p class="text.rent">Rentabilidade</p><br></hr>
+            <hr>
+            <p class="text.rent">Rentabilidade</p><br></hr>
 
-                <hr>
-                <p class="text.cdi">CDI (ao ano)</p><br>></hr>
+            <hr>
+            <p class="text.cdi">CDI (ao ano)</p><br></hr>
 
-                <hr><button class="text.ppf">
-                    <p>Simular</p>
-                </button>
-
+            <hr><button class="butsim">
+                <p>Simular</p>
+            </button>
+        </div>
     </div>
 </body>
